@@ -1,0 +1,22 @@
+{
+  "name": "html-script-entry-webpack-plugin",
+  "version": "0.0.1",
+  "description": "micro-frontend import-html-entry qiankun",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Easy-Martin/html-script-entry-webpack-plugin.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Easy-Martin/html-script-entry-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/Easy-Martin/html-script-entry-webpack-plugin#readme",
+  "dependencies": {
+    "html-webpack-plugin": "^5.5.0"
+  }
+}
