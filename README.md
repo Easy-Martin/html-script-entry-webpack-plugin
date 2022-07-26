@@ -22,7 +22,7 @@ const HtmlScriptEntryWebpackPlugin = require('html-script-entry-webpack-plugin')
 ```
 
 ## 解决问题
-当我们机遇import-html-entry去解决前端模块化的问题时(比如 `qiankun`)，加载html后需要知道那个脚本是我们入口文件
+当我们机遇`import-html-entry`去解决前端模块化的问题时(比如 `qiankun`)，加载html后需要知道那个脚本是我们入口文件
 
 ## 工作原理
 基于`html-webpack-plugin`，在处理钩子`afterTemplateExecution`时根据`package.json`中`name`比较`headTags`下的脚本文件，为入口文件`scriptTag`添加`entry:true`,编译后html：
